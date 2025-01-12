@@ -1,0 +1,61 @@
+.wrapper{
+  background-image: url(pexels-pixabay-262978.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 50vw;
+
+}
+
+.navigation{
+
+  display: flex;
+  width: 30%;
+  position: absolute;
+  right:0px;
+  padding:10px 0px ;
+  font-size:20px;
+
+}
+.navigation a{
+justify-content: space-between;
+color: white;
+margin-left: 10px;
+margin-right: 30px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+opacity: 1;
+transition: 0.3s;
+
+
+}
+
+.navigation a:hover{
+  text-decoration: underline;
+  text-shadow: 100px;
+  opacity: 0.6;
+
+
+}
+.text{
+  position: relative;
+  top: 250px;
+  left: 650px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+.text-1{
+  position: relative;
+  top: 220px;
+  left: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+
+
